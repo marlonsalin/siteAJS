@@ -1,0 +1,100 @@
+
+#main-footer{
+    font-family: 'Oswald';
+    background: #000;
+}
+
+#main-footer ul{
+    margin: 0;
+    list-style-type: none;
+}
+
+
+#main-footer .frase{
+    margin: 0;
+    padding: 0.4em;
+    color: white;
+    font-size: 1.7em;
+    text-align: left;
+    font-family: 'Madina';
+}
+
+#footer-contato{
+    padding: 1em;
+    background: #4169E1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#footer-contato h4{
+    color: white;
+    margin-bottom: 0.5em;
+}
+
+#footer-contato p{
+    font-size: 0.8em;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+
+}
+
+
+#footer-contato ul {
+    margin-top: 0.5em;
+}
+
+#footer-contato li, a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer-contato li:nth-child(3){
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-top: 0.5em;
+}
+
+#footer-contato li a:hover{
+    color: greenyellow;
+}
+
+#footer-contato .midia-link i{
+    text-align: right;
+    font-size: 2em;
+}
+
+#footer-contato .midia-link i:hover{
+    color: mediumorchid;
+}
+
+
+
+
+#footer-nav{
+    padding: 1em;
+    text-align: center;
+    background: #6495ED;
+   
+}
+
+#footer-nav ul{
+    list-style-type: none;
+}
+
+#footer-nav ul li{
+    display: inline-block;
+}
+
+#footer-nav ul li:not(:nth-last-child(1)){
+    margin-right: 0.7em;
+}
+
+#footer-nav li a{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#footer-nav li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+

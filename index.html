@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJS Som e Panfletagens</title>
+    <script src="https://kit.fontawesome.com/89333fb542.js" crossorigin="anonymous"></script>
+ 
+  
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+
+    <div id="root">
+        <input type="checkbox" id="checkCall">
+        <div id="painelContato"> 
+            
+            <div id="painelCall">
+                    <label for="checkCall"><i class="fa-solid fa-x"></i></label>
+                    <div id="sub-painelCall">
+                            <p>Solicite seu orçamento sem compromisso! <br>
+                            Fale agora com nosso comercial.</p>
+                            <a href="https://wa.me/5543984336528" target="_blank" >Clique Aqui</a>
+                           
+                    </div>
+            </div>
+
+
+        </div>
+        
+        <header id="main-header">
+            <div id="navbar-header">
+                    
+                    <ul id="menu-nav"> 
+
+                        <ul> 
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#content-main">Sobre</a></li>
+                            <li><a href="galeria.html">Galeria</a></li>
+                            <li><button onclick="btnPainelCall()">Contato</button></li>    
+                        </ul>  
+                    </ul>
+
+                    <div id="menu-bar">
+                        <input type="checkbox" id="inCheck">
+                        <label for="inCheck" class="buttonCheckBar" id="btncheckBar"><i class="fa-solid fa-bars"></i></i></i></label>
+                        <div id="painel-menu">
+
+                                <ul> 
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#content-main">Sobre</a></li>
+                                    <li><a href="galeria.html">Galeria</a></li>
+                                    <li><button onclick="btnPainelCall()">Contato</button></li>    
+                                </ul>  
+                        </div>
+
+
+                    </div>
+                    
+
+            </div>
+
+            <div id="logo-main">
+                <img src="src/logoajsfinal.png" alt="logo ajs" id="logo-ajs">
+
+            </div>
+
+
+
+
+
+        </header>
+
+        <main id="content-main">
+            <section id="main-sobre" class="section-main">
+                <h2>Sobre</h2>
+                <article class="card-art">
+                    
+                    <div>
+
+                        <p>AJS - carro de som e panfletagem, esta a mais de 15 de anos no mercado atendendo diversas empresas. 
+                            Fornecemos uma frota de carros e equipes de panfletagem prontos a atenderem com o melhor serviço da região. 
+                            Nossos serviços são baseados em estratégia de divulgações locais, ou seja, forcener o devido suporte publicitario a empresas que querem atrair os clientes proximos a localização de seu negócio. 
+                            Fazendo com que sua marca fique reconhecida e destacada na região e obtenha potenciais resultados ao seu negócio.</p>
+                    </div>
+                    <div>
+                        <video width="400em" controls played>
+                                <source src="./video/AJSsom.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+
+
+                </article>
+
+            </section>
+
+            <section class="section-main" id="main-service">
+                <h2>Serviços</h2>
+                <article  class="card-art card-servicos">
+                    
+                    <div>
+                        <img src="src/cardsom.png" alt="Figura Ilutrativa carro de som">
+                        <h3>SOM</h3>
+                        <p>
+                            PROPAGANDA VOLANTE, MANIFESTAÇÕES, LOCUTOR DE LOJAS, CARREATAS, EVENTOS P/IGREJA, DIVULGAÇÕES DE SOM EM GERAL.
+                        </p>
+                    </div>
+
+                    <div>
+                        <img src="src/cardpanfletagem.png" alt="Figura Ilutrativa Panfleteiro">
+                        <h3>PANFLETAGEM</h3>
+                        <p>
+                            DISTRIBUIÇÃO EM SEMÁFOROS, CASA EM CASA, COMÉRCIO E BAIRROS ESPECÍFICOS.
+                        </p>
+                       
+                    </div>
+                </article>
+            </section>
+
+
+        </main>
+
+        <footer id="main-footer">
+            <div id="footer-contato">
+
+                <h4>INFORMAÇÕES</h4>
+                <p>Prestamos serviços em Londrina-PR e Região. Atendimento ao Cliente de Segunda a Domingo.</p> 
+                <p>Solicite um orçamento em um dos nossos numeros de contato:</p> 
+                    <ul>
+                        <li><a href="https://wa.me/5543984336528" target="_blank">(43) 98433-6528</a> <i class="fa-brands fa-whatsapp"></i></li>
+                        <li>(43) 99191-0347 <i class="fa-brands fa-whatsapp"></i></li>
+                        <li>Midia Social:</li>
+                        <li><a href="https://www.instagram.com/ajs_divulga/" class="midia-link" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+
+                    </ul>
+                
+            </div>
+            <div id="footer-nav">
+                <ul> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#content-main">Sobre</a></li>
+                    <li><a href="galeria.html">Galeria</small></a></li>
+
+                    
+                   
+                </ul>
+            </div>
+            <p class="frase">'Tudo Posso Naquele que me fortalece'</p>            
+
+            
+        </footer>
+
+
+    </div>
+
+    <script src="script/menuNav.js"></script>
+    
+</body>
+</html>

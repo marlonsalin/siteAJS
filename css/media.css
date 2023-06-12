@@ -1,0 +1,248 @@
+@import url(normalize.css);
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+
+
+ @font-face{
+
+
+    font-family: 'Oswald';
+    src: url("../font/Oswald/Oswald-VariableFont_wght.ttf");
+
+    font-family: 'Madina';
+    src: url("../font/madina/Madina.otf"), url("../font/madina/Madina.ttf");
+
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#root{
+
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background: black;
+    scrollbar-width: none;
+}
+
+
+@media only screen and (min-width: 720px){
+
+
+    #menu-bar{
+        display: none;
+    }
+
+    #menu-nav{
+        display: block;
+        margin-top: 0.7em;
+        margin-bottom: 0.5em;
+    }
+
+    #menu-nav ul li{
+        display: inline-block;
+
+        font-size: 1em;
+        border-bottom: 0.12em solid #87CEFA;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: 	#FFFF00;
+        cursor: pointer;
+    }
+
+    #menu-nav ul li:not(:nth-last-child(1)){
+        margin-right: 4em;
+    }
+
+    #menu-nav li button{
+
+        border: none;
+        font-size: 1em;
+        padding: 0.3em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+        background: #0000CD;
+        color: #FFFF00;
+        font-weight: bold;
+
+    
+        cursor: pointer;
+
+    }
+
+
+
+    #painel-menu ul {
+        list-style-type: none;
+
+    }
+
+
+
+    /* logo principal ajs */
+
+    #logo-main{
+        max-width: 70%;
+    }
+
+    #logo-main img{
+        width: 65%;
+
+
+    }
+
+
+    /* elemento main container */
+    #content-main{
+        width: 90%;
+    }
+
+    #main-service{
+        width: 100%;
+    }
+    .card-servicos{
+        flex-direction: row;
+        justify-content: baseline;
+        align-items: flex-start;
+
+    }
+
+    .card-servicos div{
+        margin: 1%;
+        
+        max-width: 40%;
+ 
+        
+    }
+
+
+
+
+    #footer-contato{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    #footer-contato{
+        padding-left: 2em;
+        padding-right: 2em;
+
+    }
+
+
+
+    /* MEDIA ELEMENTO MAIN DA PAGINA indexgalery.html */
+    #galeria-main{
+        flex-direction: row;
+    }
+
+    #galeria-main{
+        height: 90vh;
+    }
+
+
+    /*  */
+
+
+
+
+
+}
+
+@media only screen and (min-width: 720px){
+    /* logo principal AJS NO HEADER */
+    #main-sobre{
+        margin: 0 auto;
+    }
+
+    #logo-main img{
+        width: 80%;
+
+
+    }
+
+
+    .card-art{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        flex: 1 20%;
+    }
+ 
+    .card-art div{
+        
+
+        margin: 1%;
+    }
+
+
+    .card-servicos div{
+ 
+
+        margin: 1%;
+        
+    }
+
+
+
+    .card-servicos p{
+        width: 90%;
+    }
+    /*  */
+    
+
+
+}
+
+
+
+/* RESPONSIVIDADE LOGO PRINCIPAL AJS */
+
+@media only screen and (min-width: 820px){
+
+    #logo-main{
+        max-width: 80%;
+    }
+
+    #logo-main img{
+        width: 80%;
+
+
+    }
+}
+
+
+@media only screen and (min-width: 1024px){
+    
+    #logo-main{
+        max-width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    #logo-main img{
+        width: 60%;
+
+
+    }
+}
+
